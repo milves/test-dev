@@ -6,7 +6,6 @@ var WeatherApp = React.createClass({
 	render: function() {
 		return(
 			<div>
-				<p>Tere mario</p>
 				<WeatherComponent />
 			</div>
 		)
