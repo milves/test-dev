@@ -21547,7 +21547,7 @@
 		},
 
 		componentDidMount: function componentDidMount() {
-			this.serverRequest = _jQuery2.default.getJSON("http://cors.io/?u=http://www.trykikeskus.ee/kolmlovi/media/kalku2/data.txt", function (result) {
+			this.serverRequest = _jQuery2.default.getJSON("http://api.openweathermap.org/data/2.5/group?id=588409,456172,2643743,2950159,524901&units=metric&appid=de19cab250158c43a5e6524f9a07cb4f", function (result) {
 				var data = result;
 				if (this.state.posData != null) {
 					data.list[5] = this.state.posData;
